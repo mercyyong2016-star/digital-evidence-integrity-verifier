@@ -1,0 +1,14 @@
+Packaging validation — October 21, 2026
+Local Python 3.12.14; cryptography 50.0.2; pandas 2.2.3.
+13 automated unit tests passed with no skips on Linux.
+PASS: Complete notebook run 1; all assertions and 11-file export succeeded.
+PASS: Run 1 manifest/signing-cell reruns preserved all existing reference/key bytes.
+PASS: Complete notebook run 2; all assertions and 11-file export succeeded.
+PASS: Run 2 manifest/signing-cell reruns preserved all existing reference/key bytes.
+PASS: CLI produced a verified-match report with exit status 0.
+PASS: CLI refused to write a report inside the evidence folder.
+
+Notebook execution used a temporary injected test password, never stored in the deliverable.
+The local fallback export was tested. The actual Colab download was demonstrated in the user run.
+Original recorded_results files were supplied by the author and retained byte-for-byte.
+Their original manifest/signature/public key were not supplied for independent authentication.

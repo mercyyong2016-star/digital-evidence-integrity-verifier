@@ -1,0 +1,34 @@
+{
+  "reference_authenticated": true,
+  "verification_key_fingerprint": "862a076a26ca3c3a1eeca29c8dc3b7cdf1fc398760e452ed42d1f8599800db26",
+  "scan_started_utc": "2026-10-21T16:10:24.866367+00:00",
+  "scan_finished_utc": "2026-10-21T16:10:24.871555+00:00",
+  "outcome": "VERIFIED_MATCH",
+  "files": [
+    {
+      "path": "documents/incident_notes.txt",
+      "status": "UNCHANGED",
+      "expected_sha256": "e2b12387c9571ccf4b58bc0983350b4e5ccc684cb7235c0b65f7d62fbed34976",
+      "observed_sha256": "e2b12387c9571ccf4b58bc0983350b4e5ccc684cb7235c0b65f7d62fbed34976",
+      "expected_size": 117,
+      "observed_size": 117
+    },
+    {
+      "path": "logs/access_log.csv",
+      "status": "UNCHANGED",
+      "expected_sha256": "82b7f37e77b03f8f2a4ebc9765077b47296640f95e5d7014a55c281068012151",
+      "observed_sha256": "82b7f37e77b03f8f2a4ebc9765077b47296640f95e5d7014a55c281068012151",
+      "expected_size": 108,
+      "observed_size": 108
+    },
+    {
+      "path": "media/sample_binary.bin",
+      "status": "UNCHANGED",
+      "expected_sha256": "fbbab289f7f94b25736c58be46a994c441fd02552cc6022352e3d86d2fab7c83",
+      "observed_sha256": "fbbab289f7f94b25736c58be46a994c441fd02552cc6022352e3d86d2fab7c83",
+      "expected_size": 1048576,
+      "observed_size": 1048576
+    }
+  ],
+  "scan_issues": []
+}
